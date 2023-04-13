@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        maven {url "https://maven.usehover.com/releases" }
+        //maven { url "https://raw.github.com/autoussd/autoussd-aar-no-sms/master"}
+        maven { url "https://raw.github.com/autoussd/autoussd-aar/master" }
+    }
+}
+rootProject.name = "MM Solution"
+include ':app'

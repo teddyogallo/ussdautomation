@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MMSolution"
+        tools:targetApi="31">
+        <!--<meta-data
+            android:name="com.autoussd.APP_ID"
+            android:value="64326d53757f1dc41cfddfe6"
+            />-->
+        <meta-data
+            android:name="com.hover.ApiKey"
+            android:value="79ae1f6221c2225e0b9812c41573ee1d"/>
+
+        <activity
+            android:name="com.mm.mmsolution.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.mm.mmsolution.addoptionnew"
+            android:label="Add USSD"
+            />
+    </application>
+
+
+</manifest>

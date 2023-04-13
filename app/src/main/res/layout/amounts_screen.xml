@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:subtitle=""
+            app:subtitleCentered="true"
+            app:subtitleTextColor="@color/black"
+            app:title=""
+            app:titleCentered="true"
+
+            >
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp">
+
+                <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="bottom|center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+
+
+                        android:gravity="bottom|center"
+
+                        android:text="Please fill details"
+                        android:textColor="@color/black"
+                        android:textSize="18dp">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/close"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+
+                    android:layout_marginEnd="5dp"
+
+                    android:src="@drawable/closenew">
+
+                </ImageView>
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/toolbar"
+            android:background="@color/greyborder">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginStart="44dp"
+                android:layout_marginEnd="44dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/darkblue">
+
+                    </View>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/darkblue">
+
+                    </View>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/bluetrans">
+
+                    </View>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phoneNumLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_below="@+id/pindesc"
+
+
+                    android:background="@drawable/statelistdrawable"
+
+                    android:hint="Phone Number or Agent No."
+                    android:paddingStart="10dp"
+
+                    android:paddingTop="5dp"
+                    android:paddingEnd="10dp"
+
+
+                    android:textColorHint="@color/greydisabled"
+                    app:boxBackgroundColor="@android:color/transparent"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeWidthFocused="0dp"
+
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="@color/bluishnavy">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phoneNum"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/transparent"
+                        android:inputType="phone"
+                        android:minHeight="30dp"
+
+
+                        android:textCursorDrawable="@drawable/cursordrawable"
+
+                        android:textSize="13dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/amounttobepaidlay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_below="@+id/pindesc"
+
+
+                    android:background="@drawable/statelistdrawable"
+
+                    android:hint="@string/requestlay_text_3"
+                    android:paddingStart="10dp"
+
+                    android:paddingTop="5dp"
+                    android:paddingEnd="10dp"
+
+
+                    android:textColorHint="@color/greydisabled"
+                    app:boxBackgroundColor="@android:color/transparent"
+                    app:boxStrokeWidth="0dp"
+                    app:boxStrokeWidthFocused="0dp"
+
+                    app:hintAnimationEnabled="true"
+                    app:hintTextColor="@color/bluishnavy">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/amounttobepaid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@android:color/transparent"
+                        android:imeOptions="actionSend|flagNoEnterAction"
+                        android:inputType="numberDecimal"
+                        android:minHeight="30dp"
+                        android:textCursorDrawable="@drawable/cursordrawable"
+
+                        android:textSize="13dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/proceedtwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:inputType="textCapCharacters"
+                    android:backgroundTint="@color/colorPrimary"
+
+
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:textStyle="bold">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="color_1a1a1a">#1a1a1a</color>
+
+    <color name="bg_newcover">#E5E5E5</color>
+    <color name="greydisabled">#566370</color>
+    <color name="greydisabledtwo">#D1D9DD</color>
+    <color name="grey_faqs">#F5F5F5</color>
+    <color name="ad_cred_balance">#EEF1F2</color>
+    <color name="whitebluish">#F0F0F0</color>
+    <color name="backgroundsearch">#eef1f2</color>
+    <color name="lightblue">#FFE896</color>
+    <color name="draft">#B70006</color>
+    <color name="inreview">#EFB949</color>
+    <color name="notifindicatior">#EA5230</color>
+    <color name="complete">#566370</color>
+    <color name="completetrans">#90566370</color>
+
+    <color name="notif_time">#677189</color>
+    <color name="reviewgreen">#45C78A</color>
+
+
+    <color name="otpColorTheme">@color/yellowbac</color>
+    <color name="pinColorTheme">@color/yellowbac</color>
+
+    <color name="navynewtrans">#33C4C4C4</color>
+    <color name="navynew">#006187</color>
+    <color name="greynew">#25DBD8D4</color>
+    <color name="ratingcolour">#efb949</color>
+    <color name="greyreal">#566370</color>
+    <color name="grey">#6F8091</color>
+
+    <color name="greyfour">#566370</color>
+    <color name="greyfourtrans">#80566370</color>
+
+    <color name="greythree">#d1d9dd</color>
+
+    <color name="greyborder">#F0F0F0</color>
+    <color name="greyaudience">#566370</color>
+    <color name="greyaudiencetrans">#55566370</color>
+    <color name="createadbackground">#E5E5E5</color>
+
+    <color name="greytwo">#566370</color>
+    <color name="greytwotrans">#EFF3F5</color>
+    <color name="greytwotransi">#EBEAEB</color>
+
+    <color name="header_color">#87000000</color>
+    <color name="background">#FFFFFF </color>
+    <color name="brown">#6B5600</color>
+    <color name="brownnew">#EEF1F2</color>
+    <color name="brownnewnew">#F9F6F2</color>
+    <color name="brownnewtwo">#F6F6F6</color>
+
+    <color name="greyblue">#566370</color>
+    <color name="janjabuttongreyblue">#29668B</color>
+
+    <color name="newblue">#276BF6</color>
+    <color name="newbluetrans">#33276BF6</color>
+    <color name="darkblue">#FFCB05</color>
+    <color name="bluishblue">#29668B</color>
+    <color name="mtn_teal">#006187</color>
+    <color name="black_over">#73566370</color>
+    <color name="bordertwo">#d1d9dd</color>
+    <color name="blackreal">#000000</color>
+    <color name="blacktrans">#501A1A1A</color>
+    <color name="navyblue">#29668B</color>
+    <color name="whiteshade">#CDCDCD</color>
+    <color name="janjagreen">#A8E5AE</color>
+    <color name="janjagrey">#7F7F7F</color>
+    <color name="janjadarkblue">#29668B</color>
+
+
+
+
+
+    <color name="violetnew">#5D27F6</color>
+    <color name="newbluetwo">#276BF6</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+
+    <color name="chipbac">#dbd8d4</color>
+
+    <color name="whitetranstwo">#b5b5b5</color>
+    <color name="whitetrans">#68FFFFFF</color>
+
+    <color name="greyweak">#EEF1F2</color>
+    <color name="greyweakbac">#F2F2F2</color>
+    <color name="greyweaktwo">#E3E3E3</color>
+    <color name="greyweakthree">#D8D8D8</color>
+
+    <color name="greyweaktrans">#44F3F3F3</color>
+    <color name="tabcolotrans">#33000000</color>
+    <color name="grey_activetwo">#9e9e9e</color>
+    <color name="grey_active">#669E9E9E</color>
+    <color name="grey_activenew">#434343</color>
+    <color name="grey_real">#9A9A9A</color>
+    <color name="grey_realtext">#6E6E6E</color>
+    <color name="review_button_tint">#9AA1A9</color>
+
+
+    <color name="blue">#0000FF</color>
+    <color name="blueivy">#006187</color>
+
+    <color name="blue_active">#33276BF6</color>
+    <color name="blue_light"> #11276BF6</color>
+    <color name="blue_real"> #2F55D4</color>
+    <color name="lightbluenew"> #006187</color>
+
+
+    <color name="transpar">#00000000</color>
+
+
+    <color name="grey_bg_light">#fafafa</color>
+    <color name="blue_bg_light">#e3f2fd</color>
+    <color name="yellowbac">#ffcc01</color>
+    <color name="yellowbactrans">#88ffcc01</color>
+    <color name="blueshade">#006187</color>
+
+    <color name="yellownew">#276BF6</color>
+    <color name="whitetransweak">#11323232</color>
+    <color name="yellowbactwo">#ffcc01</color>
+    <color name="yellow">#FFD300</color>
+    <color name="blacktab">#1A1A1A</color>
+
+    <color name="darkbluenew">#006187</color>
+    <color name="yellownbac">#276BF6</color>
+    <color name="yellown">#50006187</color>
+    <color name="bluishnavy">#006187</color>
+    <color name="yellowtrans">#99006187</color>
+    <color name="red_bg_light">#ffebee</color>
+    <color name="green_active">#4caf50</color>
+    <color name="yellow_trans">#10EFB949</color>
+    <color name="yellow_block">#EFB949</color>
+    <color name="red_trans_status">#10FF0000</color>
+    <color name="green_trans_status">#1045C78A</color>
+    <color name="green_status">#45C78A</color>
+    <color name="green_trans">#334caf50</color>
+    <color name="colorAccent">#03a9f4</color>
+    <color name="red">#50FF0000</color>
+    <color name="redmap">#CD3717</color>
+
+    <color name="redreal">#FF0000</color>
+    <color name="bluetrans">#15FFCB05</color>
+    <color name="redtrans">#33FF0000</color>
+    <color name="review_black">#15171A</color>
+    <color name="whitetrans_three">#99FFFFFF</color>
+    <color name="whitetrans_four">#70FFFFFF</color>
+
+
+    <color name="grey_trans">#30566370</color>
+    <color name="colorOnPrimary">#C3B4DA</color>
+    <color name="colorPrimaryDark">#250E47</color>
+    <color name="colorSecondary">#FFDDCE</color>
+    <color name="colorSecondaryVariant">#FEA983</color>
+    <color name="colorOnSecondary">#FFCD91</color>
+    <color name="fadedRed">#CD8282</color>
+    <color name="primaryFaded">#DED5EB</color>
+    <color name="primaryFadedish">#A58EC7</color>
+    <color name="yellowat30">#304B1D8F</color>
+    <color name="yellowbacnew">#DBD2E9</color>
+    <color name="bluishnavybac">#006187</color>
+    <color name="border_selected_bac">#539CE4</color>
+    <color name="border_selected">@color/yellow</color>
+    <color name="notifications">#EA5230</color>
+    <color name="read_notifications">#E7F6FD</color>
+
+
+    <color name="colorPrimary">#4B1D8F</color>
+    <color name="colorPrimaryLight">#404a94</color>
+    <color name="colorHighlight">#006187</color>
+    <color name="colorFocused">#276BF6</color>
+    <color name="colorGrayBorder">#D9D9D9</color>
+    <color name="colorUnselectedGender">#566370</color>
+    <color name="colorSelectedGenderBackground">#EAF0FE</color>
+    <color name="colorSelectedGenderText">#276BF6</color>
+    <color name="gray">#D1D9DD</color>
+    <color name="green">#45C78A</color>
+    <color name="light_gray">#F9F9F9</color>
+    <color name="error_red">#FF0000</color>
+    <color name="MTN_blue">#006187</color>
+    <color name="ucrop_color_toolbar">@color/colorPrimary</color>
+    <color name ="ucrop_color_statusbar">@color/colorFocused</color>
+    <color name ="ucrop_color_widget_active">@color/colorPrimary</color>
+    <color name="md_title_color">@color/colorPrimary</color>
+    <color name="md_background_color">@color/white</color>
+    <color name="md_content_color">@color/black</color>
+    <color name="md_positive_color">@color/colorPrimary</color>
+    <color name="md_neutral_color">@color/colorPrimary</color>
+    <color name="md_negative_color">@color/colorPrimary</color>
+
+</resources>

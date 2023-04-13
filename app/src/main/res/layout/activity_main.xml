@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mm.mmsolution.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active Network"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/simselect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.5"
+            android:text="Airtel MW"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="15dp"
+
+
+            app:elevation="10dp"
+            app:rippleColor="@color/black"
+            app:strokeColor="@color/common_google_signin_btn_text_dark"
+            app:strokeWidth="3dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/simselect2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.5"
+            android:text="Telkom MW"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:backgroundTint="@color/white"
+            app:cornerRadius="15dp"
+
+
+            app:elevation="10dp"
+            app:rippleColor="@color/black"
+            app:strokeColor="@color/common_google_signin_btn_text_dark"
+            app:strokeWidth="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/providertextline1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="12dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/airteltoagent"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="10dp"
+
+
+
+            android:layout_marginBottom="10dp"
+
+            android:backgroundTint="@color/white"
+
+            android:gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="false"
+            android:layout_marginEnd="20dp"
+
+            app:contentPadding="0dp"
+            app:rippleColor="@color/common_google_signin_btn_text_dark_pressed"
+            app:strokeColor="@color/material_on_background_disabled"
+            app:strokeWidth="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/dialcodebutton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginStart="33dp"
+                    android:layout_marginTop="3dp"
+                    android:text="*211#"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/providernameimage"
+                    android:layout_width="80dp"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/dialcodebutton1"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/airtellogo"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/airtedepositmoneydescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/providernameimage"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="21dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="Airtel to Agent" />
+            </RelativeLayout>
+
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/airtelsendmoneybutton"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_gravity="bottom"
+
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="20dp"
+
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            app:cardCornerRadius="8dp"
+
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="false"
+            app:contentPadding="0dp"
+            app:rippleColor="@color/common_google_signin_btn_text_dark_pressed"
+            app:strokeColor="@color/material_on_background_disabled"
+            app:strokeWidth="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/dialcodetex2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginStart="53dp"
+                    android:layout_marginTop="3dp"
+                    android:text="*211#"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/providernameimage2"
+                    android:layout_width="80dp"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/dialcodetex2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/airtellogo"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/airtesendmoneydescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/providernameimage2"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginTop="21dp"
+                    android:textStyle="bold"
+                    android:text="Airtel to Phone"
+                    android:textSize="10dp" />
+
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/tnmdepositbutton"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_gravity="bottom"
+
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="50dp"
+
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            app:cardCornerRadius="8dp"
+
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="false"
+            app:contentPadding="0dp"
+            app:rippleColor="@color/common_google_signin_btn_text_dark_pressed"
+            app:strokeColor="@color/material_on_background_disabled"
+            app:strokeWidth="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/tnmdepositdialcodetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginStart="42dp"
+                    android:layout_marginTop="4dp"
+                    android:text="*444#"
+                    android:textSize="10dp" />
+
+                <ImageView
+                    android:id="@+id/tnmprovidername"
+                    android:layout_width="80dp"
+                    android:layout_height="38dp"
+                    android:layout_below="@+id/tnmdepositdialcodetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/tnmmalawi"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tnmdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tnmprovidername"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="21dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="TNM to Agent" />
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/providertextline2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/providertextline1">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/tnmsendmoneybutton"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="10dp"
+
+
+
+            android:layout_marginBottom="10dp"
+
+            android:backgroundTint="@color/white"
+
+            android:gravity="center"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="false"
+            android:layout_marginEnd="20dp"
+
+            app:contentPadding="0dp"
+            app:rippleColor="@color/common_google_signin_btn_text_dark_pressed"
+            app:strokeColor="@color/material_on_background_disabled"
+            app:strokeWidth="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/tnmsendmoneydialcodetext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginStart="33dp"
+                    android:layout_marginTop="3dp"
+                    android:text="*444#"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/tnmsendmoneynametext"
+                    android:layout_width="80dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/tnmsendmoneydialcodetext"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/tnmmalawi"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/tnmsendmoneydescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tnmsendmoneynametext"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="21dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="TNM to Phone" />
+
+            </RelativeLayout>
+
+
+
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/safaricombutton"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_gravity="bottom"
+
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="20dp"
+
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"
+            app:cardCornerRadius="8dp"
+
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="false"
+            app:contentPadding="0dp"
+            app:rippleColor="@color/common_google_signin_btn_text_dark_pressed"
+            app:strokeColor="@color/material_on_background_disabled"
+            app:strokeWidth="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/safaricomdialcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginStart="53dp"
+                    android:layout_marginTop="3dp"
+                    android:text="*544#"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/safaricomprovidername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/safaricomdialcode"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Safaricom"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/safbundledescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/safaricomprovidername"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="21dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="Safaricom Bundle" />
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/addservicebutton"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_gravity="bottom"
+
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="20dp"
+
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/teal_200"
+            android:gravity="center"
+            app:cardCornerRadius="8dp"
+
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="false"
+            app:contentPadding="0dp"
+            app:rippleColor="@color/common_google_signin_btn_text_dark_pressed"
+            app:strokeColor="@color/material_on_background_disabled"
+            app:strokeWidth="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/addcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+
+                    android:layout_alignParentTop="true"
+
+                    android:layout_marginStart="53dp"
+                    android:layout_marginTop="3dp"
+                    android:text="New"
+                    android:textSize="10dp" />
+
+
+                <TextView
+                    android:id="@+id/addprovidername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addcode"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Add"
+                    android:textSize="35dp" />
+
+                <TextView
+                    android:id="@+id/adddescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/addprovidername"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="10dp"
+                    android:textStyle="bold"
+                    android:text="Add new service" />
+            </RelativeLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <GridView
+        android:id="@+id/idServiceNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/providertextline2"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
